@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 const path = require("path");
 const cors = require("cors");
-Cors;
+
 const corsOptions = {
   origin: process.env.ALLOWED_CLIENTS.split(","),
 };
